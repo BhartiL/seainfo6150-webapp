@@ -30,7 +30,15 @@ class ArticleTableRow extends React.Component {
     // onClick={this.onClick.bind(this)}
     //
     return (
-      <div>Replace this div with your table row HTML</div>
+      <tr>
+          <td>
+            <input name={this.props.slug} type="checkbox" checked={this.state.selected} onClick={this.onClick.bind(this)} />
+          </td>
+          <td>{selectedStatus}</td>
+          <td><address>{this.props.author}</address></td>
+          <td><time dateTime="2018">{new Date(this.props.date).toLocaleString()}</time></td>
+          <td><section>{this.props.shortText}</section></td>
+      </tr>
     );
   }
 
