@@ -1,6 +1,7 @@
 .article_list_item {
   border: 1px solid red;
   margin: 30px 20px 0px 0px;
+  width: 95%;
   background-color: #EEEBEB;
 }
 
