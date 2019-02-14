@@ -1,0 +1,9 @@
+.article_list {
+  list-style-type: none;
+  border: 1px dashed;
+  width: 42%;
+  background-color: gray;
+  padding-left: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}

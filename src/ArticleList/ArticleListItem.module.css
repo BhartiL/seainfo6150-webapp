@@ -1,0 +1,36 @@
+.article_list_item {
+  border: 1px solid red;
+  margin: 30px 20px 0px 0px;
+  background-color: #EEEBEB;
+}
+
+.title,
+.short_text,
+.author,
+.date {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+}
+
+.author,
+.date {
+  text-align: right;
+  display: block;
+}
+
+.date {
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.title {
+  padding-top: 10px;
+  color: #cc0000;
+  font-size: 14pt;
+}
+
+.author {
+margin-top: 10px;
+}

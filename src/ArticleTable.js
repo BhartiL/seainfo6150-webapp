@@ -7,7 +7,7 @@ const ArticleTable = ({ articles }) => (
 
           <table border="1">
             <caption>Table of Articles</caption>
-            
+
             <thead>
               <tr>
                 <th>Select</th>
