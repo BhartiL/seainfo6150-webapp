@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './ArticleListItem.module.css';
+import ArticleImage from './ArticleImage'
 
 class ArticleListItem extends React.Component {
 
@@ -8,6 +9,7 @@ class ArticleListItem extends React.Component {
     return (
       <li className={styles.article_list_item}>
       <article>
+      <ArticleImage title={this.props.title} url={this.props.url}/>
       <h1 className={styles.title}>{this.props.title}</h1>
       <p className={styles.short_text}>{this.props.shortText}</p>
       <address className={styles.author}>By: {this.props.author}</address>
