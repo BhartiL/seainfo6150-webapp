@@ -1,0 +1,15 @@
+footer {
+  background-color: #be0000;
+  padding-left: 20px;
+  color: white;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+address {
+  font-size: 10px;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight: normal;
+  font-style:normal;
+}

@@ -1,11 +1,24 @@
+.article_page {
+max-width: 50%;
+border-style: solid;
+border-width: thin;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: column;
+padding: 1px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
 .article_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
   list-style-type: none;
-  border: 1px dashed;
-  width: 42%;
   background-color: #A9A9A9;
   padding-left: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 0.5em;
   padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

@@ -1,7 +1,7 @@
 .article_list_item {
   border: 1px solid red;
   margin: 20px 20px 0px 0px;
-  border-radius: 0.5em;
+
   background-image: linear-gradient(90deg, #CC0000 -50% , #F1F1F1 11%);
   box-shadow:0px 6px 5px grey;
 }
@@ -13,13 +13,12 @@
   padding-left: 10px;
   padding-right: 10px;
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
-  font-size: 9pt;
+  font-size: 7pt;
   margin: auto;
 }
 
 .author,
 .date {
-  text-align: right;
   display: block;
 }
 
@@ -31,9 +30,9 @@ margin-bottom: 10px;
 .title {
   padding-top: 10px;
   color: #CC0000;
-  font-size: 10.5pt;
+  font-size: 7pt;
 }
 
 .author {
-margin-top: 25px;
+margin-top: 15px;
 }
