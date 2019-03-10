@@ -19,5 +19,12 @@ time {
   margin-left: auto;
   align-self: center;
   font-size: 9px;
+  padding-left: 20px;
+}
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 14px;;
+  }
+  
 }
