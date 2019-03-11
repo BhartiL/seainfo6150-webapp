@@ -8,7 +8,7 @@ class Article extends React.Component {
     <article>
     <header>
       <h1>{this.props.title}</h1>
-      <datetime>{this.props.date}</datetime>
+      <time dateTime={new Date(this.props.date).toLocaleString()}>{new Date(this.props.date).toLocaleString()}</time>
       <address>{this.props.author}</address>
     </header>
       <main>{this.props.children}</main>
