@@ -5,9 +5,9 @@ import ArticleTableRow from './ArticleTableRow';
 const ArticleTable = ({ articles }) => (
 
 
-          <table border="1">
+          <table>
             <caption>Table of Articles</caption>
-            
+
             <thead>
               <tr>
                 <th>Select</th>

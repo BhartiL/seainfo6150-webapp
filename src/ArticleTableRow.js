@@ -37,7 +37,7 @@ class ArticleTableRow extends React.Component {
           <td>{selectedStatus}</td>
           <td><address>{this.props.author}</address></td>
           <td><time dateTime="2018">{new Date(this.props.date).toLocaleString()}</time></td>
-          <td><section>{this.props.shortText}</section></td>
+          <td><p>{this.props.shortText}</p></td>
       </tr>
     );
   }
